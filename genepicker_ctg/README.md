@@ -6,7 +6,7 @@ Download everything this directory to local disk (e.g., ~/Desktop/HGTools/genepi
 ```
 cd ~/Desktop/HGTools/genepicker_ctg
 ```
-The directory contains scripts (\*.pl and \*.sh) and example input files (\*.txt). The file 'example.glocation.txt' include host genes and their relative gene positions within their contigs. The file 'example.hgts.txt' includes a list of HGT candidates. To remove HGTs that are located in short contigs (containing <=4 genes) and contigs with 50% genes having HGT origins, type the following command:
+The directory contains scripts (\*.pl and \*.sh) and example input files (\*.txt). The file 'example.glocation.txt' include host genes and their relative gene positions within their contigs. The file 'example.hgts.txt' includes a list of HGT candidates. To remove HGTs that are located in short contigs (containing ≤4 genes) and contigs with 50% genes having HGT origins, type the following command:
 ```
 ./genepicker_tcg.sh example.glocation.txt example.hgts.txt 
 ```
@@ -18,7 +18,7 @@ Output files will be generated:
 
 3. example.hgts.txt.ctg_discarded.txt: shows the removed HGTs and their contigs.
 
-### Customerized run
+### Customized run
 To porcess your own data, the gene location file has to be formatted as in the example file. Each row represents a gene and includes five columns separated by TABs:
 
 column-1: gene identifier (must be identical to those in gene list file);
