@@ -1,6 +1,6 @@
 # genepicker_txmy
 
-genepicker_txmy pickes genes based on their taxonomical origins.
+genepicker_txmy.pl pickes genes based on their taxonomical origins.
 
 ### Quick run
 Download everything this directory to local disk (e.g., ~/Desktop/HGTools/ genepicker_txmy). Change direcotry in the folder in terminal console:
@@ -14,7 +14,7 @@ The directory contains scripts (\*.pl) and example input files (\*.txt). The fil
 A new list of genes will be exported to output file ‘example_genes.txt.txt’.
 
 ### Customized run
-To process your own data, the input gene file, genes have to contain taxonomical information. An example gene identifier that works is as follow:
+To process your own data, in the input gene file, gene identifiers have to contain taxonomical information. An example gene identifier that works is as follow:
 
 Chromalveolata.Stramenopiles--Oomycetes--Phytophthora_infestans.XP_002909070.1
 
@@ -26,4 +26,4 @@ Class: Oomycetes
 
 Gene id: Phytophthora_infestans.XP_002909070.1
 
-Only the first column containing gene identifier is read by the scripts. Other columns do not matter.
+Only the first column containing gene identifier in the input file is read by the script. Other columns do not matter but are included in the output file together with the gene identifier-column.
