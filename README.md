@@ -1,5 +1,5 @@
 # HGTools
-This repostitory includes task-specific tools that were used in [Fan and Qiu et al (Apr. 2020)](https://advances.sciencemag.org/content/6/18/eaba0111).
+This repostitory includes task-specific tools that were used in the recent research paper [Fan and Qiu et al  Sci Adv 2020 6(18):eaba0111](https://advances.sciencemag.org/content/6/18/eaba0111).
 
 ### genepicker_txmy
 [genepicker_txmy](https://github.com/hqiu17/HGTools/tree/master/genepicker_txmy) pickes genes based on their taxonomical origins.
